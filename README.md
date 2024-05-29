@@ -6,6 +6,11 @@ Personal tech learning and growth journal.
 
 ## Networking
 - [Protocols](networking/protocols.md)
+- [SPAN](networking/SPAN.md)
+- [SPAN session](networking/SPAN-session.md)
 
 #### Standards
 - [CEF (Common Event Format)](networking/standards/CEF-Common-Event-Format.md)
+
+## Hardware
+- [DIMM](hardware/DIMM.md)
