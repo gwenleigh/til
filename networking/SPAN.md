@@ -18,6 +18,9 @@
 - **Encapsulated Remote SPAN (ERSPAN)**: across networks
   - Extends the functionality further by encapsulating the mirrored traffic in GRE (Generic Routing Encapsulation) packets, allowing it to be sent across Layer 3 networks.
 
+![SPAN, from networklessons.com](https://cdn.networklessons.com/wp-content/uploads/2014/05/cisco-span-example.png) SPAN, port to port    
+![RSPAN, from networklessons.com](https://cdn.networklessons.com/wp-content/uploads/2014/05/cisco-rspan-sw1-sw2.png) RSPAN, within the same network  
+
 3. How SPAN Works
 - **Configuration**: Network administrators configure SPAN sessions on a switch, specifying the source (port or VLAN) and the destination port.
 - **Traffic Duplication**: The switch hardware then duplicates the traffic from the source and sends it to the destination port without affecting the original traffic flow.
