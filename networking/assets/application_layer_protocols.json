@@ -1,0 +1,136 @@
+{
+    "application_layer_protocols": [
+        {
+             "name": "HTTP",
+            "description": "HyperText Transfer Protocol"
+        },
+        {
+             "name": "HTTPS",
+            "description": "HyperText Transfer Protocol Secure"        
+        },
+        {
+             "name": "FTP",
+            "description": "(File Transfer Protocol" 
+        },
+        {
+            "name": "TFTP",
+           "description": "Trivial File Transfer Protocol"
+        },
+        {
+            "name": "FTPS",
+           "description": "FTP Secure"
+        },
+        {
+            "name": "SFTP",
+           "description": "SSH File Transfer Protocol"
+        },
+        {
+            "name": "SMTP",
+           "description": "Simple Mail Transfer Protocol"
+        },
+        {
+            "name": "SMTP AUTH",
+           "description": "SMTP Authentication" 
+        },
+        {
+            "name": "SNMP",
+           "description": "Simple Network Management Protocol"
+        },
+        {
+            "name": "IMAP",
+           "description": "Internet Message Access Protocol"
+        },
+        {
+            "name": "POP3",
+           "description": "Post Office Protocol 3"
+        },
+        {
+            "name": "DNS",
+           "description": "Domain Name System"
+        },
+        {
+            "name": "DHCP",
+           "description": "Dynamic Host Configuration Protocol"
+        },
+        {
+            "name": "SSH",
+           "description": "Secure Shell"
+        },
+        {
+            "name": "NTP",
+           "description": "Network Time Protocol"
+        },
+        {
+            "name": "LDAP",
+           "description": "Lightweight Directory Access Protocol"
+        },
+        {
+            "name": "SMB",
+           "description": "Server Message Block"
+        },
+        {
+            "name": "NFS",
+           "description": "Network File System"
+        },
+        {
+            "name": "CIFS",
+           "description": "Common Internet File System"
+        },
+        {
+            "name": "NNTP",
+           "description": "Network News Transfer Protocol"
+        },
+        {
+            "name": "MIME",
+           "description": "Multipurpose Internet Mail Extensions"
+        },
+        {
+            "name": "ICMP",
+           "description": "Internet Control Message Protocol"
+        },
+        {
+            "name": "SMTPS",
+           "description": "Simple Mail Transfer Protocol Secure"
+        },
+        {
+            "name": "LDAPS",
+           "description": "Lightweight Directory Access Protocol over SSL"
+        },
+        {
+            "name": "IMAPS",
+           "description": "Internet Message Access Protocol Secure"
+        },
+        {
+            "name": "POP3S",
+           "description": "Post Office Protocol 3 Secure"
+        },
+        {
+            "name": "DoH",
+           "description": "DNS over HTTPS" 
+        },
+        {
+            "name": "DoT",
+           "description": "DNS over TLS" 
+        },
+        {
+            "name": "Telnet",
+           "description": "Telnet" 
+        },
+        {
+            "name": "WebSocket",
+           "description": "WebSocket" 
+        },
+        {
+            "name": "BitTorrent",
+           "description": "BitTorrent" 
+        },
+        {
+            "name": "Gopher",
+           "description": "Gopher" 
+        },
+                {
+            "name": "SOAP",
+           "description": "Simple Object Access Protocol" 
+        }
+    ]
+}
