@@ -23,3 +23,9 @@ It's my favourite children's book with illustrations.
 
 ## Hardware
 - [DIMM](hardware/DIMM.md)
+
+## Git
+- [Rename local and remote branch](git/rename-local-and-remote-branch.md)
+
+## JavaScript
+- [Stack trace](javascript/stack-trace.md)
