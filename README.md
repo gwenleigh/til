@@ -13,8 +13,19 @@ It's my favourite children's book with illustrations.
 - [SPAN](networking/SPAN.md)
 - [SPAN session](networking/SPAN-session.md)
 
+#### Networking logs
+- [Logs](networking/logs.md)
+- [`syslog`](networking/syslog.md)
+- [`kern.log`](networking/kern.log.md)
+
 #### Standards
 - [CEF (Common Event Format)](networking/standards/CEF-Common-Event-Format.md)
 
 ## Hardware
 - [DIMM](hardware/DIMM.md)
+
+## Git
+- [Rename local and remote branch](git/rename-local-and-remote-branch.md)
+
+## JavaScript
+- [Stack trace](javascript/stack-trace.md)

@@ -27,14 +27,19 @@ A Memory Module is a multiple number of memory chips mounted on a substrate.
 - Commonly used in desktops and servers.
 - Includes various types such as DDR (Double Data Rate) SDRAM (Synchronous Dynamic RAM), DDR2, DDR3, DDR4, and DDR5.
 
-![Three SDRAM DIMM slots on a ABIT BP6 computer motherboard.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Abit-BP6_%28cropped%29_SDRAM_DIMM_slots.JPG/700px-Abit-BP6_%28cropped%29_SDRAM_DIMM_slots.JPG)
+    ![Three SDRAM DIMM slots on a ABIT BP6 computer motherboard.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Abit-BP6_%28cropped%29_SDRAM_DIMM_slots.JPG/700px-Abit-BP6_%28cropped%29_SDRAM_DIMM_slots.JPG)
+
+    <img src="assets/DD3-4GB-front.jpg" alt="Samsung DDR3 front" width="350">
+    <img src="assets/DD3-4GB-back.jpg" alt="Samsung DDR3 back" width="350">
 
 #### 3. SO-DIMM (Small Outline DIMM):
 - A smaller form factor of DIMM used mainly in laptops and compact devices.
 - Similar to DIMMs, they come in types like DDR2, DDR3, DDR4, and DDR5.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/4GB_DDR3_SO-DIMM.jpg/2880px-4GB_DDR3_SO-DIMM.jpg" alt="A 204-pin PC3-10600 DDR3 SO-DIMM, Hynix, Korea" width="500">A 204-pin PC3-10600 DDR3 SO-DIMM, Hynix, Korea<br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/DDR_SO-DIMM_slot_PNr%C2%B00341.jpg/2880px-DDR_SO-DIMM_slot_PNr%C2%B00341.jpg" alt="A SO-DIMM slot on a computer motherboard." width="500">A SO-DIMM slot on a computer motherboard
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/4GB_DDR3_SO-DIMM.jpg/2880px-4GB_DDR3_SO-DIMM.jpg" alt="A 204-pin PC3-10600 DDR3 SO-DIMM, Hynix, Korea" width="500">A 204-pin PC3-10600 DDR3 SO-DIMM, Hynix, Korea<br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/DDR_SO-DIMM_slot_PNr%C2%B00341.jpg/2880px-DDR_SO-DIMM_slot_PNr%C2%B00341.jpg" alt="A SO-DIMM slot on a computer motherboard." width="500">
+    
+    A SO-DIMM slot on a computer motherboard
 
 #### 4. NVDIMM (Non-Volatile DIMM):
 - A type of memory module that combines the speed of DRAM with the persistence of NAND flash.
