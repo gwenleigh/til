@@ -1,0 +1,13 @@
+# Traffic mirroring
+
+<img src="https://arthurchiao.art/assets/img/traffic-mirror-with-tc-and-tunneling/mirror-traffic-path.png" alt="Traffic path of the mirror test from Arthur Chiao's blog" width=600 >
+
+| Aspect                   | Description                                                                                                                                          |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Purpose                  | • **Monitoring and Analysis**: Used to monitor network traffic for troubleshooting, performance analysis, and security monitoring. It enables administrators to capture and inspect packets for issues, bottlenecks, or malicious activity. <br> • **Security**: Helps in detecting intrusions, unauthorized access, and other security threats by providing visibility into network traffic. |
+| Implementation           | • **Network Switches**: Most managed network switches support port mirroring, allowing traffic from specified ports to be duplicated to a monitoring port. <br> • **Software-Based Solutions**: Tools and software solutions can be used to mirror traffic, especially in virtualized environments and cloud networks. |
+| Use Cases                | • **Intrusion Detection Systems (IDS)**: Traffic can be mirrored to an IDS to detect and respond to potential security threats. <br> • **Performance Monitoring**: Helps in analyzing the performance of applications and services by examining the network traffic they generate. <br> • **Compliance**: Assists in ensuring that network usage complies with internal policies and regulatory requirements. |
+| Challenges               | • **Resource Intensive**: Mirroring large volumes of traffic can be resource-intensive and may require significant processing power and storage. <br> • **Privacy Concerns**: Mirrored traffic often includes sensitive data, so handling and storing this data must comply with privacy regulations and best practices. |
+| Technological Advancements | • **Cloud Traffic Mirroring**: Cloud providers offer traffic mirroring services that allow customers to mirror virtual network traffic for security and monitoring purposes. <br> • **Advanced Analytics**: Integration with advanced analytics platforms and machine learning models to automatically detect and respond to anomalies in network traffic. |
+
+<img src="https://hackernoon.imgix.net/images/o44gm3yz9.jpg" alt="Traffic mirroring diagram in AWS from Hackernoon" width=900 >
