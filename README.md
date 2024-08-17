@@ -3,9 +3,6 @@ Personal tech learning and growth journal.
 I love to see 👀 to learn so this TIL book has (or will have) a lot of images. 
 It's my favourite children's book with illustrations. 
 
-✨ Inspired by [Josh Branchaud](https://github.com/jbranchaud/til),   
-🐘 Nudged by [Andrei Călinescu](https://github.com/drecali/til) 
-
 ## Networking
 - [GLAN and VLAN](networking/glan-and-vlan.md)
 - [Port or interface?](networking/port-or-interface.md)
@@ -15,16 +12,16 @@ It's my favourite children's book with illustrations.
 
 ### Networking Protocols
 - [Protocols](networking/protocols.md)
-- [DHCP]
+- [DHCP](networking/DHCP.md)
 
-#### Packet Analysis
+### Packet Analysis
 - [DHCP packet](networking/DHCP-packet.md)
 
 ### Networking utilities
 - [`curl` and `ping`](networking/curl-and-ping.md)
 - [`netcat`](networking/netcat.md)
 
-#### Networking logs
+### Networking logs
 - [Logs](networking/logs.md)
 - [`syslog`](networking/syslog.md)
 - [`kern.log`](networking/kern.log.md)
@@ -32,17 +29,25 @@ It's my favourite children's book with illustrations.
 ### Networking Concepts & Terms
 - [Connection](networking/connection.md)
 
-#### Standards
+### Standards
 - [CEF (Common Event Format)](networking/standards/CEF-Common-Event-Format.md)
+
+<br>
 
 ## Hardware
 - [DIMM](hardware/DIMM.md)
 
+<br>
+
 ## JavaScript
 - [Stack trace](javascript/stack-trace.md)
+
+<br>
 
 ## Git
 - [Rename local and remote branch](git/rename-local-and-remote-branch.md)
 
-# Markdown
+<br>
+
+## Markdown
 - [Highlight plain text](markdown/highlight_text.md)
