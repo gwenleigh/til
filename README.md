@@ -9,12 +9,14 @@ It's my favourite children's book with illustrations.
 - [Ports: Admin ports or SPAN ports?](networking/ports-admin-or-span.md)
 - [SPAN](networking/SPAN.md)
 - [SPAN session](networking/SPAN-session.md)
+- [SSH Tunneling](networking/ssh-tunneling.md)
 
 ### Networking Protocols
 - [Protocols](networking/protocols.md)
 - [DHCP](networking/DHCP.md)
 
 ### Packet Analysis
+- [Connection](networking/connection.md)
 - [DHCP packet](networking/DHCP-packet.md)
 
 ### Networking utilities
@@ -36,6 +38,8 @@ It's my favourite children's book with illustrations.
 
 ## Hardware
 - [DIMM](hardware/DIMM.md)
+- [RAID](hardware/RAID.md)
+- [UEFI](hardware/UEFI.md)
 
 <br>
 
