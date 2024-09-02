@@ -1,6 +1,6 @@
 # Azure AD (Azure Active Directory)
 
-Azure AD is a cloud-based identity and access management service provided by Microsoft. It allows organizations to manage user identities, control access to applications, and ensure security across cloud and on-premises environments.
+Azure AD is a <mark style="background-color: #FF999C">cloud-based identity and access management service</mark> by Microsoft. It allows organizations to manage user identities, control access to applications, and ensure security across cloud and on-premises environments.
 
 
 ## Azure Jargon. Azurgon. Klingon? 👀
@@ -41,16 +41,17 @@ Poll is the system querying or checking for new log entries or events within a c
 - "Yielded xxxx items" means that, up to that point in the polling operation, <mark style="background-color: #FF999C">the client has retrieved (or received) a certain number of items (e.g., log entries) from Azure AD.</mark>
 
 
-## Common AzureAD issues 
-1. The roles and the access token. 
+## Common AzureAD issues - The roles and the access token. 
+1. Meaning
 - The error usually occurs if the access token does not have **permissions** related to Microsoft Graph while calling Graph API requests.
 - When the system is unable to locate the "roles" claim in the access token.
-In OAuth 2.0 and OpenID Connect, an access token is a piece of security information that represents the authorization granted to a client to access resources on behalf of a user.
-The "roles" claim typically contains information about the roles assigned to the user (e.g., admin, user, reader). These roles are often used for authorization purposes to determine what actions the user is allowed to perform.
-Possible Causes:
+- In OAuth 2.0 and OpenID Connect, an access token is a piece of security information that represents the authorization granted to a client to access resources on behalf of a user.
+- The "roles" claim typically contains information about the roles assigned to the user (e.g., admin, user, reader). These roles are often used for authorization purposes to determine what actions the user is allowed to perform.
+
+2. Possible Causes:
 Missing Roles Claim: The token might not include the "roles" claim. This could happen if the roles are not configured to be included in the access token.
 Misconfiguration: There might be a misconfiguration in the application or Azure AD where the roles should have been included in the token but weren’t.
 Token Scope: The token request might not have included the proper scopes or permissions to obtain the roles information.
-Solution:
+3. Solution:
 Check Token Configuration: Verify that the roles are configured correctly in the Azure AD application settings and that the token is being issued with the necessary claims.
 Scopes and Permissions: Ensure that the token request includes the required scopes or permissions to obtain the roles.

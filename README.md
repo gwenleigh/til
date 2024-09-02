@@ -40,8 +40,16 @@ It's my favourite children's book with illustrations.
 - [DIMM](hardware/DIMM.md)
 - [RAID](hardware/RAID.md)
 - [UEFI](hardware/UEFI.md)
+- [`ipmi`](hardware/ipmitool/ipmitool.md)
+
+**Concepts**  
+- [Thurmal trip](hardware/ipmitool/thermal-trip.md)
 
 <br>
+
+## Database  
+**PostgresSQL**
+- [Commands](database/psql/commands/)
 
 ## JavaScript
 - [Stack trace](javascript/stack-trace.md)
