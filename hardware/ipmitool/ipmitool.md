@@ -24,6 +24,7 @@ IPMI is a standardized interface used for managing and monitoring servers and ot
 | `ipmitool sdr`          | (Sensor Data Repository) lists the server's hardware components with status (watts, voltage, percent & active status) |
 | `ipmitool sdr list`     | Lists the status of all sensors.               |
 | `ipmitool sdr elist`     | Lists the status of all sensors with (error) status.               |
+| `ipmitool sel list`     | Lists logs of error events from the System Event Log (SEL), logged by BMC |
 | `ipmitool sel elist`     | Lists logs of error events from the System Event Log (SEL), logged by BMC |
 | `ipmitool bmc reset cold`     | a cold reset of the Baseboard Management Controller (BMC)               |
 
