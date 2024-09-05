@@ -13,11 +13,12 @@ It's my favourite children's book with illustrations.
 
 ### Networking Protocols
 - [Protocols](networking/protocols.md)
-- [DHCP](networking/DHCP.md)
+- [DHCP](networking/dhcp/DHCP.md)
+    - [Is DHCP a must for every subnet?](networking/dhcp/is-dhcp-a-must-for-every-subnet.md)
 
 ### Packet Analysis
 - [Connection](networking/connection.md)
-- [DHCP packet](networking/DHCP-packet.md)
+- [DHCP packet](networking/dhcp/DHCP-packet.md)
 
 ### Networking utilities
 - [`curl` and `ping`](networking/curl-and-ping.md)
@@ -41,6 +42,10 @@ It's my favourite children's book with illustrations.
 - [RAID](hardware/RAID.md)
 - [UEFI](hardware/UEFI.md)
 - [`ipmi`](hardware/ipmitool/ipmitool.md)
+
+## Electronics
+Basics
+- [AC/DC currents](electronics/basics/1-AC-DC.md)
 
 **Concepts**  
 - [Thurmal trip](hardware/ipmitool/thermal-trip.md)

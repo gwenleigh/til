@@ -10,9 +10,9 @@ GLAN enhances network speed and performance, while VLAN improves network organiz
 
 ### VLAN (Virtual Local Area Network)
 
-**Definition**: VLAN is a method of creating separate, logical networks within a single physical network infrastructure.
-**Purpose**: VLANs segment network traffic, improve security, and enhance performance by isolating different segments of a network. They can group devices based on function, department, or application, regardless of their physical location.
-**Technology**: VLANs are implemented using network switches and routers that support IEEE 802.1Q standard for tagging Ethernet frames to identify VLAN membership.
+- **Definition**: VLAN is a method of creating separate, logical networks within a single physical network infrastructure.  
+- **Purpose**: VLANs segment network traffic, improve security, and enhance performance by isolating different segments of a network. They can group devices based on function, department, or application, regardless of their physical location.  
+- **Technology**: VLANs are implemented using network switches and routers that support IEEE 802.1Q standard for tagging Ethernet frames to identify VLAN membership.  
 
 ## Key Differences
 
