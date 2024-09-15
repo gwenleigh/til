@@ -32,7 +32,7 @@ To avoid automatically configuring an upstream branch when its name
 won't match the local branch, see option 'simple' of branch.autoSetupMerge
 in 'git help config'.
 
-lunit@miaj16 til % git push origin git push origin HEAD:2024-06-week-01
+til % git push origin git push origin HEAD:2024-06-week-01
 error: src refspec git does not match any
 error: src refspec push does not match any
 ```
