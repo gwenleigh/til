@@ -1,5 +1,7 @@
 # Kill connections
 
+## Inside `psql`
+
 - List all current connections
 
     ```
@@ -25,6 +27,25 @@
     WHERE datname = 'your_database_name'
     AND pid <> pg_backend_pid();
     ```
+
+
+## Outside `psql`
+
+
+- Run this command to grab the pid: `psql -U <user_name> -d <db_name> -c "SELECT pid, usename, datname, application_name, client_addr, state FROM pg_stat_activity WHERE application_name <> 'psql';"`
+    - then kill: `kill -9 <PID>`
+
+```
+% psql -U <user_name> -d <db_name> -c "SELECT pid, usename, datname, application_name, client_addr, state FROM pg_stat_activity WHERE application_name <> 'psql';"
+  pid  | usename | datname | application_name | client_addr | state 
+-------+---------+---------+------------------+-------------+-------
+ 21237 |         |         |                  |             | 
+ 21239 | postgres   |         |                  |             | 
+ 21235 |         |         |                  |             | 
+ 21234 |         |         |                  |             | 
+ 21236 |         |         |                  |             | 
+(5 rows)
+```
 
 ## Example 
 
